@@ -9,7 +9,7 @@ export async function getStaticPaths(){
                 id: '2'
             }
         }],
-        fallback: blocking
+        fallback: false
     }
 }
 
